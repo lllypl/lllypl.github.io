@@ -1,38 +1,21 @@
 ---
-title: Hello World
+title: hexo demo
+featured_image: ./img/demo.jpg
 ---
-Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
+# 测试视频
 
-## Quick Start
 
-### Create a new post
+<!-- <div>
+{% raw %}
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;margin: 50px 0px 50px 0px;">
+<iframe src="//player.bilibili.com/player.html?aid=90978812&cid=155358422&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;"> </iframe>
+</div>
+{% endraw %}
+</div> -->
 
-``` bash
-$ hexo new "My New Post"
-```
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;margin: 50px 0px 50px 0px;">
+<iframe frameborder='no' allowfullscreen mozallowfullscreen webkitallowfullscreen src='https://go.plvideo.cn/front/video/preview?vid=77ef5ef47040788eadbd274241d9c708_7' style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;"></iframe>
+</div>
 
-More info: [Writing](https://hexo.io/docs/writing.html)
-
-### Run server
-
-``` bash
-$ hexo server
-```
-
-More info: [Server](https://hexo.io/docs/server.html)
-
-### Generate static files
-
-``` bash
-$ hexo generate
-```
-
-More info: [Generating](https://hexo.io/docs/generating.html)
-
-### Deploy to remote sites
-
-``` bash
-$ hexo deploy
-```
-
-More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
+# 测试图片
+![(测试图片)](/img/demo.jpg)
